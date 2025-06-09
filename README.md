@@ -38,17 +38,29 @@ git clone https://github.com/yourusername/distributed-key-value-store.git
 cd distributed-key-value-store
 ```
 
-2. Install dependencies:
+2. Create and activate a virtual environment:
 ```bash
-pip3 install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate  # On Mac/Linux
+# On Windows: venv\Scripts\activate
 ```
 
-3. Start the database:
+3. Install dependencies:
 ```bash
-python3 main.py
+pip install -r requirements.txt
 ```
 
-4. Choose option 1 to start cluster + interactive shell
+4. Start the database:
+```bash
+python main.py
+```
+
+5. Choose option 1 to start cluster + interactive shell
+
+**Note**: Always activate the virtual environment (`source venv/bin/activate`) before running the project. When you're done, deactivate it with:
+```bash
+deactivate
+```
 
 ### Basic Usage
 
