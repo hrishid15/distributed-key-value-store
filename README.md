@@ -99,13 +99,13 @@ kvstore[1]> quit
 ### Running Cluster Only (Background Mode)
 
 ```bash
-python3 main.py
+python main.py
 # Choose option 2 for cluster-only mode
 ```
 
 Then in another terminal:
 ```bash
-python3 shell.py
+python shell.py
 ```
 
 ### Using the REST API
@@ -131,9 +131,9 @@ curl http://localhost:8001/admin/status
 ### Command Line Options
 
 ```bash
-python3 main.py --cluster    # Start cluster only
-python3 main.py --shell      # Start cluster + shell
-python3 main.py --help       # Show help
+python main.py --cluster    # Start cluster only
+python main.py --shell      # Start cluster + shell
+python main.py --help       # Show help
 ```
 
 ## Configuration
