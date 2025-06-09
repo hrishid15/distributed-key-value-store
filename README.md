@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 3. Start the database:
 ```bash
-python main.py
+python3 main.py
 ```
 
 4. Choose option 1 to start cluster + interactive shell
@@ -87,13 +87,13 @@ kvstore[1]> quit
 ### Running Cluster Only (Background Mode)
 
 ```bash
-python main.py
+python3 main.py
 # Choose option 2 for cluster-only mode
 ```
 
 Then in another terminal:
 ```bash
-python shell.py
+python3 shell.py
 ```
 
 ### Using the REST API
@@ -119,9 +119,9 @@ curl http://localhost:8001/admin/status
 ### Command Line Options
 
 ```bash
-python main.py --cluster    # Start cluster only
-python main.py --shell      # Start cluster + shell
-python main.py --help       # Show help
+python3 main.py --cluster    # Start cluster only
+python3 main.py --shell      # Start cluster + shell
+python3 main.py --help       # Show help
 ```
 
 ## Configuration
